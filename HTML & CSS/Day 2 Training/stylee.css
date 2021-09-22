@@ -1,0 +1,69 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+body {
+    background-color: rgb(137, 216, 216);
+    padding: 0% 10% 10% 10%;
+
+}
+
+.container{
+    color: rgb(233, 97, 73);
+    background-color: rgb(223, 247, 248);
+    margin: 5% 10% 5% 10%;
+    padding:5% 10% 15% 10%;
+}
+.container h1{
+    color: darkorchid;
+}
+
+.site{
+
+    color: coral;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+
+    background :rgb(50, 140, 224);
+    padding:0%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.navbar li{
+    color:cornsilk;
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: cornsilk;
+    width: 10px;
+    display: block;
+    padding: 15px 10px;
+
+
+}
+
+header p{
+    text-align: center;
+    color: crimson;
+    font-size: 200%;
+}
+
+footer{
+    font-size: large;
+    margin-top: 20%;
+    color: darkgoldenrod;
+}
+.sidebar{
+    color: rgb(143, 31, 27);
+}
