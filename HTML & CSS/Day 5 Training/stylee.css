@@ -1,0 +1,410 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+body {
+    background-image: url(1.jpg);
+    padding:10% 10% 10% 10%;
+    box-sizing: border-box;
+
+}
+
+.container{
+    color: rgb(59, 6, 50);
+    background-image:url(5.jpg);
+    display: flexbox;
+    box-sizing: border-box;
+    
+   
+
+    border-radius: 20px;
+    margin: 5% 0% 5% 00%;
+    padding:5% 10% 15% 10%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h1{
+    color: rgb(0, 0, 0);
+}
+
+.site{
+
+    color: coral;
+}
+
+
+.navbar ul{
+
+    background :rgb(138, 100, 30);
+    padding-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 08%;
+    border-radius: 10px;
+}
+
+.navbar li{
+    color:cornsilk;
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: cornsilk;
+    width: 10px;
+    display: block;
+    padding: 15px 10px;
+
+
+}
+
+header p{
+    text-align: center;
+    color: crimson;
+    font-size: 200%;
+}
+
+footer{
+    font-size: x-large;
+    margin: 10%;
+    color: rgb(49, 5, 5);
+}
+.sidebarr{
+    color: rgb(143, 31, 27);
+    padding-right: 10%;
+    flex: 1;
+}
+
+.intro ,.remain{ 
+
+    color:rgb(0, 0, 0);
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    
+}
+form {
+    background-color: #ececec;
+    padding: 30px 40px;
+  }
+  
+  .hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  
+  input,
+  select {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #cdcdcd;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="tel"]:focus {
+    border: 1px solid #869960;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.13);
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(242, 227, 255);
+    color: rgb(68, 67, 67);
+    padding: 10px 0;
+    border: 1px solid rgb(143, 69, 212);
+    border-radius: 0px;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    border: 1px solid rgb(243, 214, 214);
+    background-color:rgb(221, 107, 215);
+  }
+  
+  .checkbox-text {
+    font-size: 85%;
+    color: #777;
+  }
+  
+  .sidebar {
+    width: 34%;
+    float: left;
+    background-color: #e5e9dc;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+  }
+
+.activities{
+  color: rgb(0, 0, 0);
+  padding: 10% 10% 10% 10%;
+  margin:10% 10% 10% 10% ;
+  border-radius: 30px;
+}
+  
+
+ 
+
+.kk{
+    padding: 10% 10% 0% 10%;
+}
+.image{
+  align-content: center;
+  padding-left:0.5%;
+ padding-right: 3%;
+ padding-bottom: 10%;
+ margin-right: 10%;
+ border-radius: 20px;
+}
+.image2{
+  padding-left: 20%;
+  padding-top: 0%;
+  image-resolution: 30%;
+  opacity: 40%;
+  border-radius: 20px;
+}
+
+
+
+/* End Site Navigation */
+
+.content-area {
+  background-color: #fff;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .content-area {
+    padding-top: 20px;
+  }
+}
+
+.main-area {
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  margin-bottom: 05%;
+  display: flex;
+}
+
+.sidebar {
+  color: #555;
+  font-size: 85%;
+}
+
+.sidebar h3 {
+  font-size: 138.5%;
+  margin-bottom: 7px;
+}
+
+.info-box {
+  background-color: #efeedb;
+  border: 5px solid #e6e5c2;
+  padding: 10px 40px 7px 40px;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 767px) {
+  .hide-small {
+    display: none;
+  }
+}
+
+/* Bounce Animation */
+@-webkit-keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End Bounce Animation */
+
+.box-a {
+  opacity: 0;
+  animation: fadeBounce 1s forwards;
+  -webkit-animation: fadeBounce 1s forwards;
+  background-color: #ede3f1;
+  padding: 20px 20px 0 20px;
+  border: 2px solid rgb(252, 215, 8);
+  margin-bottom: 30px;
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.boxes :nth-child(2) .box-a {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+
+.boxes :nth-child(3) .box-a {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+.boxes :nth-child(4) .box-a {
+  animation-delay: 1.5s;
+  -webkit-animation-delay: 1.5s;
+}
+
+.box-b {
+  text-align: center;
+  background-color: rgb(145, 224, 229);
+  border-top: rgb(245, 210, 10);
+  width: 200px;
+  height: 100px;
+  line-height: 200px;
+  margin-bottom: 40px;
+  border-radius: 0%;
+  transition: all 1s ease-out;
+}
+
+.box-b:hover {
+  transform: rotate(360deg);
+}
+
+/* Star Animation */
+@-webkit-keyframes slideSpin {
+  50% {
+    transform: translateX(150%) scale(0.5);
+  }
+
+  75% {
+    transform: translateX(150%) rotate(180deg) scale(0.5);
+  }
+
+  100% {
+    transform: translateX(300%) rotate(180deg);
+  }
+}
+
+@keyframes slideSpin {
+  50% {
+    transform: translateX(150%) scale(0.5);
+  }
+
+  75% {
+    transform: translateX(150%) rotate(180deg) scale(0.5);
+  }
+
+  100% {
+    transform: translateX(300%) rotate(180deg);
+  }
+}
+
+.star {
+  -webkit-animation: slideSpin 2s infinite alternate forwards;
+  animation: slideSpin 2s infinite alternate forwards;
+  width: 25%;
+  height: auto;
+}
+
+
+.position{
+  text-align: center;
+  color: rgb(153, 104, 13);
+}
+
+h1{
+  text-align: center;
+
+}
+.new-center{
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.newpara{
+  padding-right: 10%;
+  text-align: center;
+}
+.sidebar-two ,.sidebar-one{
+  padding-right: 10%;
+  text-align: center;
+}
