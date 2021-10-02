@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.heading {
+color:darkblue;
+text-align: center;
+text-transform: capitalize;
+font-weight: bolder;
+text-shadow: 0px 2px 5px yellow;
+}
