@@ -1,0 +1,134 @@
+
+* {
+  box-sizing: border-box;
+}
+
+a button{
+  size: 800px;
+  box-sizing: border-box;
+  background-color: #ad0000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ margin-left: 40%;
+ margin-bottom: 30%;
+  cursor: pointer;
+  padding: 4% 4% 4% 4%;
+  border-radius: 30px;
+}
+
+.cards{
+  background-color:#C0C0C0;
+  backface-visibility: hidden;
+  background-size: 1000%;
+  width: 33.33%;
+
+  float:left;
+  padding:5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  padding: auto;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  box-shadow: 10px 15px rgba(230, 209, 19, 0.562);
+}
+
+.row span{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  padding-left: 30%;
+  margin-left: 10%;
+  margin-top: 20%;
+  padding-top: 20%;
+}
+
+h1{
+  color: rgb(0, 1, 2);
+  padding-left: 30%;
+  padding-top: 2%;
+
+}
+.Titlee{
+  color: #E50914;
+  text-align: center;
+  font-size: 100px;
+  background-color:#000000;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 0;
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 2%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding-left: 30%;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  padding-right: 180px;
+
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.Click {  size: 40px;
+  color: #ad0000;
+  box-sizing: border-box;
+  background-color: #ad0000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  cursor: pointer;
+  border-radius: 30px; }
+  
+  h5{
+    background-color: #ad0000;
+  }
+
+  button{
+    size: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    background-color: #ad0000;
+  }
